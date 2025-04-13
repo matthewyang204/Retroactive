@@ -42,6 +42,8 @@ class RootViewController: NSViewController, CCNNavigationControllerDelegate, NSW
     }
     
     func alertForOSIncompatibility() {
+        let osAtLeastSequoia = false
+        let discouraged_osHasExperimentalSupport = false
         if osAtLeastSequoia {
             AppDelegate.showOptionSheet(title: "Retroactive has been discontinued.".localized(),
                                         text: "You should transition from Retroactive to a wide range of supported apps, many of which are built into macOS or free to download.".localized(),
