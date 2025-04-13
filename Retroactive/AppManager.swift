@@ -428,16 +428,16 @@ class AppManager: NSObject {
 
     var supportedApps: [AppType] {
         if osAtLeastSequoia {
-            return [.itunes]
+            return [.aperture, .iphoto, .itunes, .finalCutPro7, .logicPro9, .xcode, .keynote5, .pages4, .numbers2]
         }
         if osAtLeastCatalina {
-            return [.aperture, .iphoto, .itunes]
+            return [.aperture, .iphoto, .itunes, .finalCutPro7, .logicPro9, .xcode, .keynote5, .pages4, .numbers2]
         }
         if osAtLeastMojave {
-            return [.finalCutPro7, .logicPro9, .xcode, .keynote5, .pages4, .numbers2]
+            return [.aperture, .iphoto, .itunes, .finalCutPro7, .logicPro9, .xcode, .keynote5, .pages4, .numbers2]
         }
         if osAtLeastHighSierra {
-            return [.finalCutPro7, .logicPro9, .keynote5, .pages4, .numbers2]
+            return [.aperture, .iphoto, .itunes, .finalCutPro7, .logicPro9, .xcode, .keynote5, .pages4, .numbers2]
         }
         return []
     }
