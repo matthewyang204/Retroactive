@@ -3,7 +3,7 @@
 While Retroactive does not support macOS Sequoia or later, you can still use Retroactive to run Aperture, iPhoto, and iTunes on macOS Sonoma, macOS Ventura, macOS Monterey, macOS Big Sur, and macOS Catalina. Xcode 11.7 on macOS Mojave. Final Cut Pro 7, Logic Pro 9, and iWork ’09 on macOS Mojave or macOS High Sierra.
 
 <p align="center">
-  <a href="https://github.com/cormiertyshawn895/Retroactive/releases/download/2.2/Retroactive.zip" alt="Download Retroactive"><img width="282" height="68" src="screenshots/resources/download-button.png" alt="Download Retroactive"></a>
+  <a href="https://github.com/matthewyang204/Retroactive/releases/download/2.2/Retroactive.zip" alt="Download Retroactive"><img width="282" height="68" src="screenshots/resources/download-button.png" alt="Download Retroactive"></a>
 <p>
 
 ---
